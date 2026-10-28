@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="106dp"
+        android:layout_height="96dp"
+        android:background="@color/RojoPasion"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/Derecha"
+        android:layout_width="124dp"
+        android:layout_height="46dp"
+        android:text="Derecha"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/Abajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abajo"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/Arriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arriba"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/Izquierda"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:text="Izquierda"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/CambiarColor"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Cambiar Color"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <Button
+        android:id="@+id/CambiarTamaño"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:text="Cambiar Tamaño"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="535dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
